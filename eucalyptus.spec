@@ -46,7 +46,7 @@ Provides: %{name}-abi = %{abi_version} \
 Summary:       Elastic Utility Computing Architecture
 Name:          eucalyptus
 Version:       3.1.0
-Release:       0%{?build_id:.%build_id}%{?dist}
+Release:       0%{?build_id:.%build_id}.emc-release%{?dist}
 License:       GPLv3
 URL:           http://www.eucalyptus.com
 Group:         Applications/System
